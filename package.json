@@ -6,9 +6,9 @@
   "scripts": {
     "start": "SET PORT=3000 && node lib/server.js",
     "dev": "SET PORT=3000 && nodemon lib/server.js",
-    "test": "jest --config jest.config.js",
+    "test": "jest --config jest.config.js --forceExit",
     "test:watch": "jest --watchAll",
-    "test:coverage": "jest --coverage"
+    "test:coverage": "jest --coverage --forceExit"
   },
   "author": "Vivek Chauhan",
   "license": "ISC",
