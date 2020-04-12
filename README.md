@@ -1,4 +1,4 @@
-# Hotel Search API in Node JS
+# Hotel Search API in Node JS [![Build Status](https://travis-ci.org/chauhanvivek27/hotel-service.svg?branch=master)](https://travis-ci.org/chauhanvivek27/hotel-service)
 
 This API used to search hotel based on City, Hotel Name , Price Range and Date Range.
 
