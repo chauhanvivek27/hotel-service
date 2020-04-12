@@ -1,5 +1,5 @@
 const request = require("supertest");
-
+const { schema } = require("../util/util");
 const app = require("../lib/app");
 
 jest.mock("./../src", () => ({
@@ -21,6 +21,7 @@ describe("API Routes", () => {
   it("Resolves get Hotel list request", (done) => {
     request(app.listen())
       .get("/gethotels")
+      .query({ city: "dubai" })
       .expect(200)
       .end((err, res) => {
         if (err) return done.fail(err);

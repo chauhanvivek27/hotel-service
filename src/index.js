@@ -59,7 +59,7 @@ function Price(priceRange) {
 }
 
 function hoteList() {
-  const url = "https://api.myjson.com/bins/tl0bp";
+  const url = "https://my-json-server.typicode.com/chauhanvivek27/fake-json/db";
   return axios
     .get(url)
     .then((response) => {
