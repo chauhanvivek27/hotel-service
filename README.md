@@ -1,4 +1,4 @@
-# Hotel Search API in Node JS [![Build Status](https://travis-ci.org/chauhanvivek27/hotel-service.svg?branch=master)](https://travis-ci.org/chauhanvivek27/hotel-service) [![codebeat badge](https://codebeat.co/badges/3a99f3bc-865d-4469-867d-0ddeb55abadc)](https://codebeat.co/projects/github-com-chauhanvivek27-hotel-service-master)
+# Hotel Search API in Node JS [![Build Status](https://travis-ci.org/chauhanvivek27/hotel-service.svg?branch=master)](https://travis-ci.org/chauhanvivek27/hotel-service) [![codebeat badge](https://codebeat.co/badges/3a99f3bc-865d-4469-867d-0ddeb55abadc)](https://codebeat.co/projects/github-com-chauhanvivek27-hotel-service-master) [![Coverage Status](https://coveralls.io/repos/github/chauhanvivek27/hotel-service/badge.svg?branch=master)](https://coveralls.io/github/chauhanvivek27/hotel-service?branch=master)
 
 This API used to search hotel based on City, Hotel Name , Price Range and Date Range.
 
