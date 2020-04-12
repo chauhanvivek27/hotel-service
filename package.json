@@ -1,0 +1,28 @@
+{
+  "name": "hotel-service",
+  "version": "1.0.0",
+  "description": "Search Hotel based  on name , description ",
+  "main": "index.js",
+  "scripts": {
+    "start": "SET PORT=3000 && node lib/server.js",
+    "dev": "SET PORT=3000 && nodemon lib/server.js",
+    "test": "jest --config jest.config.js",
+    "test:watch": "jest --watchAll",
+    "test:coverage": "jest --coverage"
+  },
+  "author": "Vivek Chauhan",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "axios": "^0.19.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "http-status-codes": "^1.4.0",
+    "moment": "^2.24.0",
+    "nodemon": "^2.0.2"
+  },
+  "devDependencies": {
+    "jest": "^25.2.7",
+    "supertest": "^4.0.2"
+  }
+}
