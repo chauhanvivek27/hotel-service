@@ -29,4 +29,15 @@ describe("API Routes", () => {
         done();
       });
   });
+  it("Resolves get Hotel list request send wrong params", (done) => {
+    request(app.listen())
+      .get("/gethotels")
+      .query({ pricerange: "dubai" })
+      .expect(500)
+      .end((err, res) => {
+        if (err) return done.fail(err);
+        expect(JSON.parse(res.text).status).toEqual(500);
+        done();
+      });
+  });
 });
