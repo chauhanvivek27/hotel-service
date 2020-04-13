@@ -8,9 +8,6 @@ Before using the application. Please check Prerequisites and installtion instruc
 
 ### Prerequisites
 
-```
-
-```
 
 you need following node js and NPM version.
 
