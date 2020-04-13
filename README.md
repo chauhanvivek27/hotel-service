@@ -10,8 +10,6 @@ Before using the application. Please check Prerequisites and installtion instruc
 
 ```
 
-Please make sure Backend API is working https://api.myjson.com/bins/tl0bp
-
 ```
 
 you need following node js and NPM version.
